@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>aidadance</title>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=r2Gv9_itNKf8ad7G-hS4Ryq7hUTdO7xYKX6rsPoPMd9stk77euoByMS6X8-X3cJXqZlrnZrb48rH2Wd3ix048sjt757h2DT73V_ykTBxRXmbPFgJyaBIpRLIfymY219Z" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container">
+     <header class="card" style="height: 3.rem;">
+        <div class="card-body bg-color">
+            <img height="100px" src="logo.webp">
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-self-center">
+         <div class="container justify-content-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+
+             <div class="collapse navbar-collapse" id="navbarContent">
+                 <ul class="navbar-nav me-auto mb-2 justify-content-center">
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Главная страница</a> </li>
+                <li class="nav-item"> <a class="nav-link active" href="form.html">Форма для индивидуального заказа</a></li>
+                <li class="nav-item"> <a class="nav-link" href="https://bddancerussia.ru/">Наши партнёры</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#med">Почему танцоры выбирают aidadance?</a> </li>
+                <li class="nav-item"> <a class="nav-link " href="shop.html">Магазин</a></li>
+                <li class="nav-item"> <a class="nav-link" href="dz.html"><img  width="50"  src="latina.jpg"></a></li>
+                
+                </ul>
+            </div>
+         </div>
+    </nav>
+
+
+<h3 align="center">Индивидуальный заказ</h3>
+
+<form action="https://www.ya.ru" id="UserEnter" name="UserEnter" target="_blank">
+    
+    <fieldset>
+        <legend>Контактная информация</legend>
+    <p>Имя: <input type="Text" name="last_name" size=20  value="Петр"></p>
+    <p>Телефон: <input type="tel" name="phone" size=20 value="89056787634"></p>
+    <p>Email: <input type="email" name="email" size=20 value="123@gmail.com"></p>
+    <p>Дата посещения: <input type="date" name="date" size=20 value="12.08.2025"></p>
+    <p>Это будет скрыто: <input type="hidden" name="skr" value="lll12"></p>
+    <button type="Submit" name="submit"  value="Отправить">Отправить</button>
+
+    </fieldset>
+</form>
+
+<form action="https://www.ya.ru" id="UserEnter" name="UserEnter" target="_blank">
+<fieldset>
+        <legend>Персональная информация</legend>
+    <p>Возраст <input type="Number" name="age"  min="0" max="100" value="19"></p>
+    <p>Программа танцев
+        <select name="program">
+            <OPTION value="latina">Латина</OPTION>
+            <OPTION value="standart">Стандарт</OPTION>
+            <OPTION value="kid">Детская</OPTION>
+        </select>
+    <p>Дополнительные комментарии к заявке(размер,желаемая модель) <TEXTAREA cols=80 rows=4 name="textarea" ></TEXTAREA></p>
+    </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Оценка нашего магазина</legend>
+    <p>Почему Вы выбрали наш магазин?
+        <input type="Checkbox" name="mark" value="trener" checked> Посоветовал тренер
+        <input type="Checkbox"  name="mark" value="rekl" checked>Увидел рекламу
+        <input type="Checkbox" name="mark" value="friends" checked>Посоветовали друзья
+        <input type="Checkbox" name="mark" value="optim" checked>Оптимальное соотношение цены и качества
+    </p>
+    <p>Как часто вы посещаете наш магазин
+        <input type="Radio" name="mark" value="yes" checked> В первый раз
+        <input type="Radio"  name="mark" value="no" checked> Постоянный клиент
+        
+    </p>
+    <button type="Submit" name="submit"  value="Отправить">Отправить</button>
+    </fieldset>
+    
+</form>
+<footer class="card">
+        <div class="card-body">
+            <p class="card-text">
+              <table>
+                <tr>
+                  <td>Профессиональная танцевальная обувь для тех, кто движется к совершенству.<br> Мы помогаем танцорам раскрыть свой потенциал с помощью комфорта, качества и стиля.<br>С любовью к танцу, команда Aidadance.</td>
+                  <td>Контакты:<br>
+☎️ +7 (XXX) XXX-XX-XX<br>
+✉️ info@aidadance.ru<br>
+🏠 г. Москва, ул. Танцорова, 5 (м. Ритм)<br>
+</td>
+
+  </tr>
+  </table>
+</p>
+        </div>
+    </footer>
+   </body>
+</html>

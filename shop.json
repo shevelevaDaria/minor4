@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Модель 040E",
+    "vendor_code": "111",
+    "description": "Женская обувь для европейской программы",
+    "price": 10300,
+    "img": "040E.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Модель 044",
+    "vendor_code": "222",
+    "description": "Женская обувь для европейской программы",
+    "price": 10700,
+    "img": "044.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Модель 064",
+    "vendor_code": "333",
+    "description": "Женская обувь для латиноамериканской программы",
+    "price": 9300,
+    "img": "064.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Модель 114D",
+    "vendor_code": "444",
+    "description": "Мужская обувь",
+    "price": 10400,
+    "img": "114D.jpg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "080 Andra",
+    "vendor_code": "555",
+    "description": "Женская обувь для латиноамериканской программы",
+    "price": 10500,
+    "img": "080Andra.jpg"
+  },
+  {
+    "id": "6",
+    "title": "136 SMAGIN",
+    "vendor_code": "666",
+    "description": "Мужская обувь",
+    "price": 15400,
+    "img": "136SMAGIN.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Модель 010",
+    "vendor_code": "777",
+    "description": "Женская обувь для латиноамериканской программы",
+    "price": 8500,
+    "img": "010jpg.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Модель 022",
+    "vendor_code": "888",
+    "description": "Детская обувь",
+    "price": 5800,
+    "img": "022.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Модель 024",
+    "vendor_code": "999",
+    "description": "Детская обувь",
+    "price": 8400,
+    "img": "024.jpg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Модель 025G",
+    "vendor_code": "123",
+    "description": "Детская обувь",
+    "price": 6900,
+    "img": "025G.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Модель 068",
+    "vendor_code": "44411e",
+    "description": "Женская обувь для латиноамериканской программы",
+    "price": 13100,
+    "img": "068.jpg"
+  }
+]
